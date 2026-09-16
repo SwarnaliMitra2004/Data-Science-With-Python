@@ -1,0 +1,148 @@
+1. List out a few scripting languages.
+
+Answer:
+Python, JavaScript, PHP, Perl, Ruby, Bash, and PowerShell are examples of scripting languages.
+
+
+2. What is another name for Python 3.0?
+
+Answer:
+Python 3.0 is also known as "Python 3000" or "Py3k".
+
+
+3. Which command enables the interactive terminal mode?
+
+Answer:
+The command:
+python
+starts the Python interactive interpreter from a terminal if Python is configured on the system.
+
+On some systems, the command may be:
+python3
+
+
+4. List out a few mutable data types.
+
+Answer:
+Some mutable data types in Python are:
+
+- List
+- Dictionary
+- Set
+- Bytearray
+
+Mutable means the contents of the object can be changed after it is created.
+
+
+5. Which function returns the location of an object?
+
+Answer:
+The id() function returns the identity of an object.
+
+Example:
+
+x = 10
+print(id(x))
+
+Note: id() gives an object's unique identity during its lifetime. In CPython, this is commonly related to its memory address, but Python does not guarantee that id() is a physical memory location.
+
+
+6. Which operator does integer division?
+
+Answer:
+The // operator performs floor division.
+
+Example:
+
+10 // 3
+
+Output:
+3
+
+
+7. What is type casting?
+
+Answer:
+Type casting is the process of converting a value from one data type to another.
+
+Examples:
+
+int("10")       -> converts string to integer
+float(10)       -> converts integer to float
+str(100)        -> converts integer to string
+
+
+8. How to do multi-line comment?
+
+Answer:
+Python does not have a dedicated multi-line comment syntax.
+
+The recommended method is to use # on each line:
+
+# This is a comment
+# written across
+# multiple lines.
+
+Triple-quoted strings are sometimes used like multi-line comments:
+
+"""
+This is a multi-line string.
+"""
+
+However, technically this creates a string literal rather than a comment.
+
+
+9. Which built-in function returns a sequence of integers?
+
+Answer:
+The range() function is used to generate a sequence of integers.
+
+Example:
+
+range(1, 5)
+
+represents:
+1, 2, 3, 4
+
+The ending value is excluded.
+
+
+10. Can we use else with for?
+
+Answer:
+Yes. Python allows an else block with a for loop.
+
+The else block executes when the loop completes normally without encountering a break.
+
+Example:
+
+for i in range(5):
+    print(i)
+else:
+    print("Loop completed")
+
+
+11. Can we write statements after the break keyword?
+
+Answer:
+Statements can appear later in the same block syntactically, but a statement placed immediately after break in that same execution path will not execute because break immediately terminates the nearest loop.
+
+Example:
+
+for i in range(5):
+    if i == 2:
+        break
+        print("Hello")   # This will never execute
+
+
+12. Which statement does nothing?
+
+Answer:
+The pass statement does nothing.
+
+It is used as a placeholder when Python requires a statement syntactically but we do not want to perform any operation.
+
+Example:
+
+if x > 10:
+    pass
