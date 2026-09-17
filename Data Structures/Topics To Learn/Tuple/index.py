@@ -1,0 +1,5 @@
+tup =(10, 20, 30, 40, 50, 60, 70, 80)
+print(tup)
+element = int(input("Enter the number "))
+idx =tup.index(element)
+print("Index is : ",idx)
