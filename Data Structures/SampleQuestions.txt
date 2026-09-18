@@ -1,0 +1,111 @@
+1. Does a list maintain insertion order?
+
+Answer:
+Yes. A Python list is ordered and maintains the order in which elements are inserted.
+
+Example:
+
+numbers = [10, 20, 30]
+
+The elements remain in the order 10, 20, 30.
+
+
+2. Can we access list items with a negative index?
+
+Answer:
+Yes. Python supports negative indexing.
+
+-1 refers to the last element,
+-2 refers to the second-last element, and so on.
+
+Example:
+
+numbers = [10, 20, 30, 40]
+
+print(numbers[-1])
+
+Output:
+40
+
+
+3. Which function empties the list?
+
+Answer:
+The clear() method removes all elements from a list.
+
+Example:
+
+numbers = [10, 20, 30]
+
+numbers.clear()
+
+print(numbers)
+
+Output:
+[]
+
+
+4. Which class represents the group of characters?
+
+Answer:
+The str class represents strings, which are sequences of Unicode characters in Python.
+
+Example:
+
+text = "Python"
+
+print(type(text))
+
+Output:
+<class 'str'>
+
+
+5. What is slicing?
+
+Answer:
+Slicing is used to extract a portion of a sequence such as a string, list, or tuple.
+
+Syntax:
+
+sequence[start:stop:step]
+
+Example:
+
+numbers = [10, 20, 30, 40, 50]
+
+print(numbers[1:4])
+
+Output:
+[20, 30, 40]
+
+The stop index is excluded.
+
+
+6. Which function toggles the cases?
+
+Answer:
+The swapcase() method changes uppercase characters to lowercase and lowercase characters to uppercase.
+
+Example:
+
+text = "PyThOn"
+
+print(text.swapcase())
+
+Output:
+pYtHoN
+
+
+7. Does a set take duplicate elements?
+
+Answer:
+No. A set stores only unique elements. Duplicate values are automatically removed.
+
+Example:
+
+numbers = {10, 20, 20, 30}
+
+print(numbers)
+
+The set contains:
+{10, 20, 30}
