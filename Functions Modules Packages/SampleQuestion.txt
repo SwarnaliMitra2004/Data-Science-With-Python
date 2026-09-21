@@ -1,0 +1,79 @@
+1. List a few built-in functions in Python.
+
+Some commonly used built-in functions are:
+print()
+input()
+len()
+type()
+range()
+sum()
+max()
+min()
+int()
+float()
+str()
+sorted()
+abs()
+
+
+2. Which keyword marks the start of a function?
+
+The "def" keyword is used to define a function.
+
+Example:
+def greet():
+    print("Hello")
+
+
+3. Which keyword ends the execution of a function?
+
+The "return" keyword ends the execution of a function and optionally
+returns a value to the caller.
+
+Example:
+def add(a, b):
+    return a + b
+
+
+4. Which allows you to logically organize your Python files?
+
+Modules allow us to logically organize Python code/files.
+
+A module is generally a Python file containing functions, classes,
+variables, or other Python code that can be imported and reused.
+
+
+5. How do you import a module with an alias name?
+
+Use the "as" keyword.
+
+Syntax:
+import module_name as alias_name
+
+Example:
+import numpy as np
+
+Another example:
+import pandas as pd
+
+
+6. Which command lists the built-in modules?
+
+sys.builtin_module_names
+
+Example:
+import sys
+print(sys.builtin_module_names)
+
+
+7. Can we import multiple modules with a single import statement?
+
+Yes.
+
+Example:
+import math, random, sys
+
+However, for readability, it is generally preferred to write:
+import math
+import random
+import sys
