@@ -1,0 +1,2 @@
+ Which module is required to access cmd line arguments?
+    The sys module is required to access command-line arguments using sys.argv.
