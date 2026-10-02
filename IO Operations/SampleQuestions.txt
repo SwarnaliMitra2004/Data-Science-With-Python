@@ -1,0 +1,40 @@
+Python File Handling - Interview / Sample Questions
+
+1. How to open a file in create mode?
+
+Answer:
+Use the open() function with mode "x".
+
+Example:
+file = open("sample.txt", "x")
+
+"x" creates a new file.
+If the file already exists, Python raises FileExistsError.
+
+
+2. Which function reads one line at a time?
+
+Answer:
+readline()
+
+Example:
+file = open("sample.txt", "r")
+line = file.readline()
+print(line)
+file.close()
+
+readline() reads one line from the file at a time.
+
+
+3. Which module is required to delete files or folders?
+
+Answer:
+The os module.
+
+Example:
+import os
+
+os.remove("sample.txt")
+
+For an empty directory:
+os.rmdir("folder_name")
