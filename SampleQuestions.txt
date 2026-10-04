@@ -1,0 +1,40 @@
+1. Why do we need Regular Expressions?
+Regular Expressions (Regex) are used to search, match, validate, extract, split, and replace text based on patterns.
+For example, Regex can be used to validate an email, find numbers, extract URLs, or remove unwanted characters from text.
+
+2. What is the difference between match() and search() in Regular Expression?
+re.match() checks for a pattern only at the beginning of the string, whereas re.search() searches for the pattern anywhere in the string.
+
+Example:
+re.match("cat", "cat is here")       → Match
+re.match("cat", "I have a cat")      → No match
+re.search("cat", "I have a cat")     → Match
+
+3. What do the following Regular Expression symbols mean?
+
+[0-7]       → Matches any character from 0 to 7
+^           → Beginning of string
+$           → End of string
++           → One or more occurrences
+\s          → Whitespace character
+\w          → Word character
+\d          → Digit
+(...)       → Capturing group
+\1          → Same character/text as the first captured group
+
+4. What are the commonly used Regular Expression functions?
+
+re.match()      → Checks for a match at the beginning of the string
+re.search()     → Searches for a match anywhere in the string
+re.findall()    → Finds all matches and returns them as a list
+re.sub()        → Replaces/removes matching text
+re.split()      → Splits a string using a Regex pattern
+re.fullmatch()  → Checks whether the entire string matches the pattern
+
+5. What does re.fullmatch(r'[0-7]+', '123') mean?
+
+[0-7]       → Matches digits from 0 to 7
++           → One or more occurrences
+re.fullmatch → The entire string must match the pattern
+
+Therefore, '123' is a valid match, while '789' is not.
