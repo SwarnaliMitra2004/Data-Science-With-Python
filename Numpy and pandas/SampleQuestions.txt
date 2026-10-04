@@ -1,0 +1,29 @@
+1. Differentiate between Python Array and NumPy Array.
+Python lists can store different data types and are slower for numerical operations.
+NumPy arrays are designed for numerical computations, are faster, and usually store elements of the same data type.
+
+2. What is NumPy?
+NumPy (Numerical Python) is a Python library used for numerical and scientific computing.
+It provides multidimensional arrays and functions for mathematical operations.
+
+3. What mathematical operations are supported by NumPy?
+NumPy supports operations such as addition, subtraction, multiplication, division, power, square root, mean, median, standard deviation, sum, minimum, maximum, and many other mathematical functions.
+
+4. How to detect outliers using IQR?
+First calculate Q1 and Q3.
+IQR = Q3 - Q1
+Lower Limit = Q1 - 1.5 × IQR
+Upper Limit = Q3 + 1.5 × IQR
+Values below the lower limit or above the upper limit are considered outliers.
+
+5. Why is Pandas used?
+Pandas is used for data manipulation and data analysis.
+It provides data structures such as Series and DataFrame and makes it easy to read, clean, analyze, filter, and process datasets.
+
+6. What is a Series in Pandas?
+A Series is a one-dimensional labeled data structure in Pandas.
+It can contain values of different data types and has an index for each value.
+
+Example:
+import pandas as pd
+s = pd.Series([10, 20, 30])
