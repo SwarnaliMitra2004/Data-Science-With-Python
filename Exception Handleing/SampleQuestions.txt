@@ -1,0 +1,47 @@
+Python Exception Handling - Sample Questions
+
+1. What will be the output for print(5-'A')?
+
+Answer:
+TypeError
+
+Explanation:
+Python cannot subtract a string from an integer.
+Therefore, it raises a TypeError.
+
+
+2. Which block is always executed irrespective of the exception?
+
+Answer:
+finally block
+
+Explanation:
+The finally block is always executed whether an exception occurs or not.
+
+
+3. Which block is executed when there is no exception?
+
+Answer:
+else block
+
+Explanation:
+The else block is executed only when the try block completes without raising an exception.
+
+
+4. Which is the base class for all the exception classes?
+
+Answer:
+BaseException
+
+Explanation:
+BaseException is the base class for all built-in exceptions in Python.
+
+
+5. Do we need any module to implement exception handling?
+
+Answer:
+No
+
+Explanation:
+Python provides built-in exception handling using try, except, else, and finally.
+No additional module is required.
