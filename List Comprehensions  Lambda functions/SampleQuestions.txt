@@ -1,0 +1,14 @@
+1. Is List comprehension faster than a for loop?
+Yes. List comprehension is generally faster than a traditional for loop because it is optimized internally in Python.
+However, the difference is usually small and readability should also be considered.
+
+2. Is List comprehension an iterator or iterable?
+A list comprehension creates a list, and a list is an iterable, but it is not an iterator.
+A list can be iterated over using a for loop, but it does not have a __next__() method.
+
+3. Is the 'lambda' keyword necessary in lambda functions?
+Yes. The 'lambda' keyword is required to create a lambda function in Python.
+It is used to define an anonymous (unnamed) function.
+
+Example:
+cube = lambda x: x ** 3
