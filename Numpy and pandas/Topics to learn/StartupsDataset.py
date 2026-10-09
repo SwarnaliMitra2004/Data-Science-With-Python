@@ -1,7 +1,10 @@
 import pandas as pd
 
-# Read the dataset
-startups = pd.read_csv("50_startups.csv")
+from pathlib import Path
+
+# Find cars.csv in the same folder as this Python script
+file_path = Path(__file__).parent / "50_Startups.csv"
+startups = pd.read_csv(file_path)
 
 # Statistical summary
 print("Statistical Summary:")

@@ -1,7 +1,9 @@
 import pandas as pd
+from pathlib import Path
 
-# Import the Cars Dataset
-cars = pd.read_csv("cars.csv")
+# Find cars.csv in the same folder as this Python script
+file_path = Path(__file__).parent / "cars.csv"
+cars = pd.read_csv(file_path)
 
 # Inspect the first 10 rows
 print("First 10 rows:")
