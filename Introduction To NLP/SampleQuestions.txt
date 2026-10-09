@@ -1,0 +1,133 @@
+NATURAL LANGUAGE PROCESSING (NLP) – INTERVIEW QUESTIONS
+
+1. How Is Text Preprocessing Performed?
+
+Text preprocessing is the process of cleaning and transforming raw text into a suitable format for Natural Language Processing (NLP) tasks.
+
+Common steps include:
+
+* Lowercasing: Convert text to lowercase to maintain consistency.
+* Tokenization: Split text into individual words or sentences.
+* Removing punctuation: Remove unnecessary punctuation marks.
+* Removing stop words: Remove common words such as "is", "the", and "a" when they are not useful for the task.
+* Stemming or lemmatization: Reduce words to their root or base forms.
+* Handling special characters: Remove or normalize unwanted symbols and characters.
+* Handling extra spaces: Remove unnecessary whitespace.
+
+Example:
+
+Original text: "The Cats are RUNNING quickly!"
+
+After basic preprocessing: "cat run quickly"
+
+Note: The exact steps depend on the NLP task. For example, stop-word removal and lowercasing may not be appropriate for every application.
+
+2. What Is the Difference Between Structured and Unstructured Datasets?
+
+Structured Dataset:
+
+* Data is organized in a predefined format, usually rows and columns.
+* It has a consistent schema and clearly defined fields.
+* It is easy to query and analyze using SQL or tools such as Pandas.
+* Examples: Student records, employee databases, and sales tables.
+
+Unstructured Dataset:
+
+* Data does not follow a fixed tabular schema.
+* It may contain text, images, audio, or video.
+* It often requires specialized processing to extract useful information.
+* Examples: Emails, social media posts, photographs, audio recordings, and videos.
+
+In short: Structured data follows a predefined organization, whereas unstructured data does not have a fixed tabular structure.
+
+3. What Is POS Tagging?
+
+POS stands for Part-of-Speech tagging.
+
+POS tagging is an NLP technique that assigns a grammatical category to each word in a sentence, such as noun, verb, adjective, or adverb.
+
+Example:
+
+Sentence: "The quick fox jumps."
+
+Possible tags:
+
+* The – Determiner
+* quick – Adjective
+* fox – Noun
+* jumps – Verb
+
+Applications:
+
+* Grammar analysis
+* Text understanding
+* Information extraction
+* Machine translation
+* Question answering
+
+A word's POS tag depends on its role in the sentence. For example, "book" can be a noun in "Read the book" or a verb in "Book a ticket."
+
+4. What Is Named Entity Recognition (NER)?
+
+Named Entity Recognition (NER) is an NLP technique used to identify and classify named entities in text, such as people, organizations, locations, dates, and monetary values.
+
+Example:
+
+Sentence: "Riya joined Google in Kolkata in 2025."
+
+Possible entities:
+
+* Riya – Person
+* Google – Organization
+* Kolkata – Location
+* 2025 – Date
+
+Applications:
+
+* Extracting information from documents
+* Analyzing news articles
+* Processing customer messages
+* Identifying organizations and locations
+* Building search engines and knowledge graphs
+
+5. What Are Stemming and Lemmatization?
+
+Stemming:
+Stemming reduces a word to a shortened root-like form by removing prefixes or suffixes using simple rules. The resulting form may not be a valid dictionary word.
+
+Examples:
+
+* playing → play
+* studies → studi (depending on the stemming algorithm)
+* connected → connect
+
+Lemmatization:
+Lemmatization converts a word into its dictionary base form, called a lemma. It can use vocabulary, grammatical information, and context to determine the correct form.
+
+Examples:
+
+* running → run
+* better → good (when the context and lemmatizer support this interpretation)
+* studies → study
+
+Both techniques help group related word forms, but their results and methods differ.
+
+6. What Is the Difference Between Stemming and Lemmatization?
+
+Stemming:
+
+* Uses rule-based cutting of word endings or prefixes.
+* Usually faster and computationally simpler.
+* May produce a word that is not found in a dictionary.
+* Often does not require grammatical context.
+* Example: studies → studi (with some stemmers).
+
+Lemmatization:
+
+* Uses vocabulary and linguistic information to find a valid base form.
+* Usually more computationally intensive.
+* Generally produces a meaningful dictionary word.
+* May consider a word's grammatical role and context.
+* Example: studies → study; better → good in the appropriate context.
+
+In short: Stemming cuts words down to root-like forms, while lemmatization identifies their meaningful dictionary base forms.

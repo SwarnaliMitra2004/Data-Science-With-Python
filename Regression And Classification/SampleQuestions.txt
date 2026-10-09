@@ -1,0 +1,144 @@
+REGRESSION AND CLASSIFICATION – INTERVIEW QUESTIONS
+
+1. What Is Regression?
+
+Regression is a supervised machine learning technique used to predict a continuous numerical value based on one or more input features.
+
+Examples:
+
+* Predicting house prices.
+* Forecasting sales.
+* Estimating salaries based on experience.
+
+2. What Are the Different Types of Regression?
+
+Common types of regression include:
+
+* Linear Regression: Models a linear relationship between input variables and a continuous target.
+* Multiple Linear Regression: Uses two or more input features to predict a numerical value.
+* Polynomial Regression: Models nonlinear relationships using polynomial features.
+* Ridge Regression: Uses L2 regularization to reduce the impact of large coefficients and help prevent overfitting.
+* Lasso Regression: Uses L1 regularization and can reduce some coefficients to zero.
+* Logistic Regression: Despite its name, it is primarily used for classification problems, such as predicting whether an email is spam.
+
+3. What Is Correlation?
+
+Correlation is a statistical measure that describes the strength and direction of the relationship between two variables.
+
+The correlation coefficient typically ranges from -1 to +1.
+
+* Positive Correlation: Both variables tend to increase together.
+* Negative Correlation: One variable tends to increase as the other decreases.
+* Zero Correlation: There is no linear correlation between the variables.
+
+Example: Study hours and exam marks may have a positive correlation.
+
+Important: Correlation does not necessarily imply causation.
+
+4. How Does the Gradient Descent Algorithm Work?
+
+Gradient Descent is an optimization algorithm used to minimize a model's loss or cost function by repeatedly updating its parameters in the direction of the negative gradient.
+
+Steps:
+
+1. Initialize the model parameters.
+2. Calculate the loss using the current parameters.
+3. Calculate the gradient of the loss with respect to the parameters.
+4. Update the parameters in the direction that reduces the loss.
+5. Repeat until the loss converges or a stopping condition is reached.
+
+The learning rate controls the size of each parameter update.
+
+If the learning rate is too high, optimization may become unstable. If it is too low, training may take a long time.
+
+5. What Are the Evaluation Metrics Used for Regression?
+
+Common regression evaluation metrics include:
+
+* Mean Absolute Error (MAE): The average absolute difference between actual and predicted values.
+* Mean Squared Error (MSE): The average squared difference between actual and predicted values.
+* Root Mean Squared Error (RMSE): The square root of MSE, expressed in the target's original units.
+* R-squared (R²): Measures how much of the target's variation is explained by the model relative to a mean-based baseline.
+* Mean Absolute Percentage Error (MAPE): Measures average absolute percentage error, but is unsuitable when actual values are zero and can be problematic near zero.
+
+For MAE, MSE, and RMSE, lower values generally indicate better predictions. R² is often higher for better-fitting models, but it should be interpreted in context.
+
+6. When Should You Use Regression and Classification?
+
+Regression:
+
+* Used when the target variable is continuous and numerical.
+* Examples: Predicting house prices, temperature, sales, or salary.
+
+Classification:
+
+* Used when the target variable represents a category or class.
+* Examples: Spam detection, disease classification, and predicting whether a customer will leave.
+
+In short: Regression predicts numerical values, while classification predicts categories.
+
+7. What Are the Evaluation Metrics Used for Classification?
+
+Common classification metrics include:
+
+* Accuracy: The proportion of all predictions that are correct.
+* Precision: The proportion of predicted positive cases that are actually positive.
+* Recall (Sensitivity): The proportion of actual positive cases correctly identified.
+* F1 Score: The harmonic mean of precision and recall.
+* Specificity: The proportion of actual negative cases correctly identified.
+* Confusion Matrix: Summarizes true positives, true negatives, false positives, and false negatives.
+* ROC-AUC: Measures how well a model distinguishes between positive and negative classes across classification thresholds.
+
+8. When Should You Use Which Evaluation Metric?
+
+* Accuracy: Use when classes are reasonably balanced and the costs of different errors are similar.
+* Precision: Use when false positives are costly, such as incorrectly flagging legitimate transactions as fraudulent.
+* Recall: Use when false negatives are costly, such as missing a potentially serious disease.
+* F1 Score: Use when you need a balance between precision and recall, particularly with imbalanced classes.
+* Specificity: Use when correctly identifying negative cases is important.
+* ROC-AUC: Use to assess how well a binary classifier separates classes across thresholds.
+* MAE: Use for regression when you want an interpretable average absolute error.
+* RMSE: Use for regression when larger errors should receive a stronger penalty.
+* R²: Use to assess the proportion of target variation explained by a regression model relative to a baseline.
+
+The choice depends on the problem, class distribution, and the cost of different types of errors.
+
+9. What Is a Balanced Dataset?
+
+A balanced dataset is a dataset in which the classes have approximately equal or similar numbers of observations.
+
+Example:
+
+* Class A: 500 records
+* Class B: 500 records
+
+An imbalanced dataset has a significant difference in class frequencies.
+
+Example:
+
+* Class A: 950 records
+* Class B: 50 records
+
+Accuracy can be misleading on imbalanced datasets. Depending on the problem, techniques such as class weighting, oversampling, undersampling, precision, recall, and F1 score may be useful.
+
+10. What Are the Applications of Regression?
+
+Regression is used in many fields, including:
+
+* Real Estate: Predicting house prices.
+* Finance: Forecasting revenue and financial trends.
+* Healthcare: Estimating healthcare costs or continuous clinical measurements.
+* Retail: Predicting sales and product demand.
+* Weather Forecasting: Estimating temperature.
+* Human Resources: Estimating salary based on relevant factors.
+
+11. What Are the Applications of Classification?
+
+Classification is used in many fields, including:
+
+* Email Filtering: Classifying emails as spam or not spam.
+* Healthcare: Classifying medical cases into diagnostic categories.
+* Banking: Detecting potentially fraudulent transactions.
+* Marketing: Predicting whether a customer is likely to respond to a campaign.
+* Cybersecurity: Classifying network activity as normal or suspicious.
+* Sentiment Analysis: Classifying text as positive, negative, or neutral.

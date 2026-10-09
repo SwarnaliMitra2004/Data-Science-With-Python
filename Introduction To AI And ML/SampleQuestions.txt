@@ -1,0 +1,92 @@
+INTRODUCTION TO AI AND MACHINE LEARNING – INTERVIEW QUESTIONS
+
+1. What is Artificial Intelligence?
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on developing machines or systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, problem-solving, and decision-making.
+
+Examples: ChatGPT, virtual assistants, facial recognition, and self-driving cars.
+
+2. What is Machine Learning?
+
+Machine Learning (ML) is a subset of Artificial Intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every situation.
+
+Example: An email spam filter learns from previously labelled emails to identify whether a new email is spam or not.
+
+3. Difference Between Rule-Based AI and ML-Based AI
+
+Rule-Based AI:
+
+* Works using predefined rules written by humans.
+* Follows explicit if-then conditions.
+* Does not automatically learn from new data.
+* Best suited for well-defined problems.
+* Example: A rule-based chatbot.
+
+ML-Based AI:
+
+* Learns patterns from data.
+* Uses a trained model to make predictions.
+* Can improve through training with relevant data.
+* Useful for complex problems where patterns are difficult to specify manually.
+* Example: An email spam classifier trained on data.
+
+In short: Rule-based AI follows predefined rules, whereas ML-based AI learns patterns from data.
+
+4. Difference Between Supervised and Unsupervised Machine Learning
+
+Supervised Learning:
+
+* Uses labelled data.
+* Correct outputs are provided during training.
+* Learns to predict outputs for new data.
+* Main tasks include classification and regression.
+* Example: Predicting house prices using historical data.
+
+Unsupervised Learning:
+
+* Uses unlabelled data.
+* Correct outputs are not provided.
+* Finds hidden patterns or structures in data.
+* Main tasks include clustering and dimensionality reduction.
+* Example: Grouping customers based on purchasing behaviour.
+
+In short: Supervised learning learns from labelled examples, while unsupervised learning discovers patterns in unlabelled data.
+
+5. Difference Between Strong AI and Weak AI
+
+Weak AI (Narrow AI):
+
+* Designed to perform specific tasks.
+* Operates within a limited domain.
+* Exists in practical applications today.
+* Example: Voice assistants and recommendation systems.
+
+Strong AI:
+
+* Refers to AI with general, human-like intelligence and understanding.
+* Would handle a wide range of intellectual tasks.
+* Has not been achieved and remains a theoretical concept.
+* Example: A hypothetical machine with general human-level intelligence.
+
+In short: Weak AI performs specific tasks, whereas Strong AI would possess general intelligence comparable to human intelligence.
+
+6. What Are the Applications of Artificial Intelligence?
+
+7. Healthcare: Disease detection, medical image analysis, and drug discovery.
+
+8. Education: Personalized learning, automated grading, and AI tutors.
+
+9. Finance: Fraud detection, credit risk assessment, and algorithmic trading.
+
+10. Transportation: Self-driving technology, traffic prediction, and route optimization.
+
+11. E-commerce: Product recommendations, chatbots, and demand forecasting.
+
+12. Cybersecurity: Detecting suspicious activities and potential cyberattacks.
+
+13. Natural Language Processing: Language translation, text summarization, and chatbots.
+
+14. Entertainment: Movie, music, and content recommendations.
+
+Conclusion:
+AI helps automate tasks, analyze large amounts of data, improve decision-making, and provide personalized services.

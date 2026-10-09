@@ -1,0 +1,103 @@
+STATISTICS – INTERVIEW QUESTIONS
+
+1. What are Mean, Median, and Mode?
+
+Mean: The mean is the average of all values. It is calculated by adding all values and dividing the sum by the total number of values.
+
+Formula:
+Mean = Sum of all values / Number of values
+
+Median: The median is the middle value when the data is arranged in ascending or descending order. If there is an even number of values, it is the average of the two middle values.
+
+Mode: The mode is the value that occurs most frequently in a dataset.
+
+Example:
+Data = 2, 3, 3, 4, 8
+
+Mean = 20 / 5 = 4
+Median = 3
+Mode = 3
+
+2. Which Distribution Has Mean, Median, and Mode at the Same Point?
+
+A perfectly symmetrical, unimodal distribution, such as a normal distribution, has the mean, median, and mode at the same point.
+
+For a normal distribution:
+Mean = Median = Mode
+
+3. What Is the Difference Between Normal Distribution and Standard Normal Distribution?
+
+Normal Distribution:
+
+* A continuous, bell-shaped, symmetrical probability distribution.
+* Its mean can be any real value, and its standard deviation can be any positive value.
+* The mean and median are equal and located at the centre.
+
+Standard Normal Distribution:
+
+* A special type of normal distribution.
+* Its mean is 0 and its standard deviation is 1.
+* Values are often expressed as z-scores.
+
+In short: Every standard normal distribution is a normal distribution, but not every normal distribution is standard normal.
+
+4. What Are Measures of Dispersion?
+
+Measures of dispersion describe how spread out or variable the values in a dataset are.
+
+Common measures include:
+
+* Range: Difference between the maximum and minimum values.
+* Variance: Measures the average squared deviation from the mean.
+* Standard Deviation: The square root of variance; measures spread in the original units.
+* Interquartile Range (IQR): Difference between the third quartile (Q3) and first quartile (Q1).
+
+These measures help us understand how much the data values differ from one another.
+
+5. What Is Exploratory Data Analysis (EDA)?
+
+Exploratory Data Analysis (EDA) is the process of examining, summarizing, and visualizing a dataset to understand its main characteristics before applying statistical methods or machine learning algorithms.
+
+EDA helps identify:
+
+* Missing values
+* Outliers
+* Patterns and trends
+* Relationships between variables
+* Data distribution
+
+Common tools include Pandas, NumPy, Matplotlib, and Seaborn.
+
+6. What Is Inferential Statistics?
+
+Inferential statistics is the branch of statistics that uses sample data to draw conclusions or make predictions about a larger population.
+
+Common techniques include:
+
+* Hypothesis testing
+* Confidence intervals
+* Regression analysis
+* Estimation of population parameters
+
+Example:
+Surveying a sample of voters to estimate the voting preferences of an entire population.
+
+7. What Is a Skewed Distribution?
+
+A skewed distribution is a probability distribution that is not symmetrical. Its values are more spread out on one side than the other.
+
+Types of skewness:
+
+Positive Skew (Right-Skewed):
+
+* The tail extends towards the right.
+* The mean is typically greater than the median.
+* Example: Income distribution.
+
+Negative Skew (Left-Skewed):
+
+* The tail extends towards the left.
+* The mean is typically less than the median.
+* Example: A test where most students score highly and only a few score very low.
+
+For a symmetrical normal distribution, skewness is zero.

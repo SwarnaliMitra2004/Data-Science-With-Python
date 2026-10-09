@@ -1,0 +1,96 @@
+UNSUPERVISED MACHINE LEARNING – INTERVIEW QUESTIONS
+
+1. Explain the Difference Between Supervised and Unsupervised Machine Learning.
+
+Supervised Machine Learning:
+
+* Uses labelled data, where the correct output is provided during training.
+* Learns the relationship between input features and target values.
+* Used for classification and regression tasks.
+* Example: Predicting house prices using historical data.
+
+Unsupervised Machine Learning:
+
+* Uses unlabelled data, where the correct output is not provided.
+* Discovers hidden patterns, structures, or groups in data.
+* Commonly used for clustering and dimensionality reduction.
+* Example: Grouping customers based on purchasing behaviour.
+
+In short: Supervised learning learns from labelled examples, whereas unsupervised learning discovers patterns in unlabelled data.
+
+2. Discuss the Applications of Unsupervised Machine Learning.
+
+Unsupervised Machine Learning is used to discover patterns and structures in datasets without predefined labels.
+
+Common applications include:
+
+* Customer Segmentation: Grouping customers based on purchasing behaviour, interests, or spending patterns.
+* Anomaly Detection: Identifying unusual observations, such as suspicious transactions or abnormal network activity.
+* Recommendation Systems: Discovering similarities between users or products to support recommendations.
+* Document Clustering: Grouping similar documents, articles, or news stories.
+* Image Segmentation: Grouping similar pixels or regions in images.
+* Dimensionality Reduction: Reducing the number of features while retaining useful information, often using techniques such as Principal Component Analysis (PCA).
+* Market Basket Analysis: Discovering items that frequently occur together in transactions.
+* Data Exploration: Identifying hidden patterns and relationships in large datasets.
+
+Example: An online store can use clustering to group customers into categories such as frequent buyers, occasional buyers, and discount-focused buyers.
+
+3. Explain How the K-Means Algorithm Works.
+
+K-Means is an unsupervised machine learning algorithm used to divide data points into K clusters based on their similarity.
+
+The algorithm works as follows:
+
+1. Choose K, the desired number of clusters.
+2. Initialize K cluster centroids, often randomly or using K-Means++.
+3. Assign each data point to the nearest centroid, usually using Euclidean distance.
+4. Recalculate each centroid as the mean of the data points assigned to that cluster.
+5. Repeat the assignment and centroid-update steps until the assignments or centroids stop changing significantly, or a stopping condition is reached.
+
+Example:
+A retail company can use K-Means to group customers based on annual spending and purchase frequency.
+
+Advantages:
+
+* Simple and relatively fast.
+* Works well for compact, well-separated clusters.
+* Scales reasonably well to many datasets.
+
+Limitations:
+
+* The value of K must be selected beforehand.
+* Sensitive to feature scaling and initial centroid placement.
+* Can be affected by outliers.
+* May perform poorly when clusters have irregular shapes or very different densities.
+
+4. How Do You Find the Ideal Value of K in the K-Means Algorithm?
+
+The ideal value of K can be estimated using methods such as:
+
+A. Elbow Method
+
+1. Run K-Means for several values of K.
+2. Calculate the Within-Cluster Sum of Squares (WCSS), also called inertia, for each value.
+3. Plot K against WCSS.
+4. Look for the point where the reduction in WCSS begins to slow noticeably. This is called the elbow point.
+
+The elbow point provides a possible choice for K, but it may not always be clearly visible.
+
+B. Silhouette Score
+
+The Silhouette Score measures how similar a data point is to its own cluster compared with other clusters.
+
+* Score close to +1: The point is well matched to its cluster.
+* Score close to 0: The point is near a cluster boundary.
+* Score close to -1: The point may be assigned to an inappropriate cluster.
+
+A higher average silhouette score often indicates better-separated clusters.
+
+C. Domain Knowledge
+
+Choose K based on the real-world purpose of the analysis. For example, a business may need a certain number of customer segments to support its marketing strategy.
+
+Important:
+Before applying K-Means, scale numerical features when they have different ranges. Also, compare clustering quality and usefulness rather than relying on one metric alone.
+
+In short: The Elbow Method, Silhouette Score, and domain knowledge can help select a suitable value of K.

@@ -1,0 +1,77 @@
+DATA VISUALIZATION – INTERVIEW QUESTIONS
+
+1. What Are the Data Visualization Techniques Used for Categorical Data?
+
+Categorical data represents groups or categories, such as gender, product type, city, or department.
+
+Common visualization techniques include:
+
+* Bar Chart: Compares the frequency or count of different categories.
+* Count Plot: Displays the number of observations in each category.
+* Pie Chart: Shows the proportion of each category as a part of the whole.
+* Stacked Bar Chart: Compares categories across groups and shows their composition.
+* Grouped Bar Chart: Compares multiple groups within each category.
+
+Example:
+A bar chart can be used to compare the number of students in different departments.
+
+Common Python libraries: Matplotlib and Seaborn.
+
+2. What Are the Data Visualization Techniques Used for Numerical Data?
+
+Numerical data represents measurable quantities, such as age, salary, height, or temperature.
+
+Common visualization techniques include:
+
+* Histogram: Shows the frequency distribution of numerical values.
+* Box Plot: Displays the median, quartiles, spread, and potential outliers.
+* Scatter Plot: Shows the relationship between two numerical variables.
+* Line Plot: Displays trends in numerical data, especially over time.
+* Density Plot: Shows a smoothed estimate of a numerical distribution.
+* Violin Plot: Displays the distribution and density of numerical values.
+* Heatmap: Represents numerical values using colours, often to visualize a correlation matrix.
+
+Example:
+A histogram can show the distribution of students' marks, while a scatter plot can show the relationship between study hours and marks.
+
+Common Python libraries: Matplotlib and Seaborn.
+
+3. Difference Between Matplotlib and Seaborn
+
+Matplotlib:
+
+* A general-purpose Python library for creating visualizations.
+* Provides detailed control over plot elements, axes, labels, colours, and layouts.
+* Often requires more code for complex statistical plots.
+* Suitable for highly customized charts.
+
+Seaborn:
+
+* A Python visualization library built on top of Matplotlib.
+* Provides attractive default styles and colour palettes.
+* Makes statistical visualizations easier to create.
+* Integrates well with Pandas DataFrames.
+* Supports convenient plots such as heatmaps, violin plots, and pair plots.
+
+Example:
+
+Using Matplotlib:
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [10, 20, 15, 25]
+
+plt.plot(x, y)
+plt.show()
+
+Using Seaborn:
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [10, 20, 15, 25]
+
+sns.lineplot(x=x, y=y)
+plt.show()
+
+In short: Matplotlib offers detailed control over visualizations, while Seaborn simplifies the creation of attractive statistical charts. Both libraries can be used together.
