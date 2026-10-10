@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("datasetExample.csv")
+df = pd.read_csv(r"D:\New folder\Numpy and pandas\Project\datasetExample.csv")
 
 # Display the dataset
 print("Dataset:")
